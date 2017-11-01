@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: "Hello people"
 date: 2017-11-01
 ---
