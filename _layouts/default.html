@@ -11,7 +11,7 @@
   <img src="http://www.wsucougars.com/images/2016/7/25/Ball_Through_Hoop_Web.jpg">
   <img src="http://psychologypresents.com/wp-content/uploads/2015/04/effective-studying-Small-300x196.jpg">
   </div>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
   <h2> {{ post.title}} </h2>
   <p> {{post.date}} </p>
       {{post.excerpt}}
