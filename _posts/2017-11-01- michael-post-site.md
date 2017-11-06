@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DAy 1"
+title: "Day 1"
 date: 2017-11-01
 ---
 
