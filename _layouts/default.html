@@ -14,9 +14,9 @@
   {% for post in site.posts limit:3 %}
   <h2> {{ post.title}} </h2>
   <p> {{post.date}} </p>
-      {{post.excerpt}}
+  <p>{{post.excerpt}}</p>
   
-  
+  <h2> Want to read more? click <a href={{post.url}}> here</a></h2>
   
   {% endfor %}
   <div id="content">
